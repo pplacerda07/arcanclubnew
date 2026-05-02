@@ -33,7 +33,7 @@ const testimonials = [
     name: "Pedro A.",
     location: "Curitiba, PR",
     time: "5 semanas atrás",
-    text: "Não sou de deixar review mas esse merece. R$ 20,99 pelo conteúdo que tem aqui é uma aberração. Passei anos comprando coisa cara achando que era o produto, mas era o método que tava errado.",
+    text: "Não sou de deixar review mas esse merece. R$ 27,90 pelo conteúdo que tem aqui é uma aberração. Passei anos comprando coisa cara achando que era o produto, mas era o método que tava errado.",
     result: "Ciclo completo concluído",
     stars: 5,
   },

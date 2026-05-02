@@ -7,35 +7,35 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-geist" })
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
-  title: 'Arkan Club | Transformação Estética Sem Bisturi',
+  title: 'Frost Club | Transformação Estética Sem Bisturi',
   description:
-    'O Método Arkan transforma sua aparência em 14 dias. Sem bisturi, sem genética como desculpa, sem equipamentos. Um sistema testado por quem teve coragem de aplicar.',
-  keywords: ['método arkan', 'transformação estética', 'debloat facial', 'face training', 'estética masculina'],
-  authors: [{ name: 'Arkan Club' }],
-  creator: 'Arkan Club',
-  metadataBase: new URL('https://arkan-club.com'),
+    'O Método Frost transforma sua aparência em 14 dias. Sem bisturi, sem genética como desculpa, sem equipamentos. Um sistema testado por quem teve coragem de aplicar.',
+  keywords: ['método frost', 'transformação estética', 'debloat facial', 'face training', 'estética masculina'],
+  authors: [{ name: 'Frost Club' }],
+  creator: 'Frost Club',
+  metadataBase: new URL('https://frost-club.com'),
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: 'https://arkan-club.com',
-    siteName: 'Arkan Club',
-    title: 'Arkan Club | Transformação Estética Sem Bisturi',
+    url: 'https://frost-club.com',
+    siteName: 'Frost Club',
+    title: 'Frost Club | Transformação Estética Sem Bisturi',
     description:
-      'O Método Arkan transforma sua aparência em 14 dias. Sem bisturi, sem genética como desculpa, sem equipamentos. Um sistema testado por quem teve coragem de aplicar.',
+      'O Método Frost transforma sua aparência em 14 dias. Sem bisturi, sem genética como desculpa, sem equipamentos. Um sistema testado por quem teve coragem de aplicar.',
     images: [
       {
         url: '/arkan-logo.png',
         width: 380,
         height: 380,
-        alt: 'Arkan Club',
+        alt: 'Frost Club',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'Arkan Club | Transformação Estética Sem Bisturi',
+    title: 'Frost Club | Transformação Estética Sem Bisturi',
     description:
-      'O Método Arkan transforma sua aparência em 14 dias. Sem bisturi, sem genética como desculpa, sem equipamentos.',
+      'O Método Frost transforma sua aparência em 14 dias. Sem bisturi, sem genética como desculpa, sem equipamentos.',
     images: ['/arkan-logo.png'],
   },
   icons: {

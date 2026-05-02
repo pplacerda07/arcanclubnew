@@ -46,7 +46,7 @@ export default function Navbar() {
         >
           <div className="container mx-auto px-4 h-16 flex items-center justify-between">
             <span className="text-[#B28B52] font-bold text-xl tracking-wider uppercase font-mono">
-              ARKAN CLUB
+              FROST CLUB
             </span>
 
             {/* Desktop links */}

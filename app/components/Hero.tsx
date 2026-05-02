@@ -36,7 +36,7 @@ export default function Hero() {
           className="inline-block mb-8"
         >
           <span className="text-[#B28B52] text-xs font-bold uppercase tracking-[0.3em] border border-[#B28B52]/30 px-4 py-1.5 rounded-full">
-            O Método Arkan
+            O Método Frost
           </span>
         </motion.div>
 

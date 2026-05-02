@@ -7,23 +7,23 @@ import { X, Check } from "lucide-react"
 const comparisons = [
   {
     others: "Resultados só com cirurgia",
-    arkan: "Transformação sem bisturi",
+    frost: "Transformação sem bisturi",
   },
   {
-    others: "Dependência de genética",
-    arkan: "Técnica supera genética",
+    common: "Resultados limitados pela genética",
+    frost: "Técnica supera genética",
   },
   {
-    others: "Semanas sem ver mudança",
-    arkan: "14 dias para diferença visível",
+    common: "Meses para ver alguma diferença",
+    frost: "14 dias para diferença visível",
   },
   {
-    others: "Métodos virais sem base",
-    arkan: "Sistema testado e comprovado",
+    common: "Tentativas frustrantes e sem padrão",
+    frost: "Sistema testado e comprovado",
   },
   {
-    others: "Foco só em produtos caros",
-    arkan: "Só rosto, espelho e disciplina",
+    common: "Dependência de procedimentos",
+    frost: "Só rosto, espelho e disciplina",
   },
 ]
 
@@ -48,7 +48,7 @@ export default function SolutionSection() {
           >
             <span className="text-[#B28B52] text-xs font-bold uppercase tracking-[0.3em]">A diferença real</span>
             <h2 className="text-[#C5C5C5] text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight mt-3 mb-6">
-              O Que o Método Arkan Faz{" "}
+              O Que o Método Frost Faz{" "}
               <span className="text-[#B28B52]">Que Nenhuma Outra Abordagem Faz</span>
             </h2>
             <p className="text-[#C5C5C5]/60 text-lg max-w-2xl mx-auto">
@@ -70,7 +70,7 @@ export default function SolutionSection() {
                 Outros métodos
               </div>
               <div className="px-6 py-4 text-center text-[#B28B52] text-sm font-semibold uppercase tracking-wider border-l border-[#B28B52]/20">
-                Método Arkan
+                Método Frost
               </div>
             </div>
 
@@ -88,7 +88,7 @@ export default function SolutionSection() {
                 </div>
                 <div className="px-6 py-5 flex items-center gap-3 border-l border-[#B28B52]/10">
                   <Check size={16} className="text-[#B28B52] shrink-0" />
-                  <span className="text-[#C5C5C5] text-sm font-medium">{c.arkan}</span>
+                  <span className="text-[#C5C5C5] text-sm font-medium">{c.frost}</span>
                 </div>
               </motion.div>
             ))}

@@ -62,8 +62,8 @@ export default function FinalCTA() {
             <p className="text-[#C5C5C5]/50 text-sm mb-2">acesso completo</p>
             <div className="flex items-baseline justify-center gap-1 mb-6">
               <span className="text-[#C5C5C5]/40 text-xl">R$</span>
-              <span className="text-[#B28B52] text-7xl font-black">20</span>
-              <span className="text-[#B28B52] text-4xl font-black">,99</span>
+              <span className="text-[#B28B52] text-7xl font-black">27</span>
+              <span className="text-[#B28B52] text-4xl font-black">,90</span>
             </div>
 
             <button

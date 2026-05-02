@@ -63,7 +63,7 @@ export default function Offer() {
                   <div className="absolute inset-0 bg-[#B28B52]/15 rounded-full blur-3xl" />
                   <Image
                     src="/projeto-debloat-new.png"
-                    alt="Método Arkan"
+                    alt="Método Frost"
                     width={200}
                     height={280}
                     className="relative drop-shadow-2xl rotate-[-6deg] hover:rotate-0 transition-transform duration-500"
@@ -74,8 +74,8 @@ export default function Offer() {
                   <p className="text-[#C5C5C5]/50 text-sm mb-1">acesso completo ao método</p>
                   <div className="flex items-baseline justify-center gap-1">
                     <span className="text-[#C5C5C5]/40 text-lg">R$</span>
-                    <span className="text-[#B28B52] text-6xl font-black">20</span>
-                    <span className="text-[#B28B52] text-3xl font-black">,99</span>
+                    <span className="text-[#B28B52] text-6xl font-black">27</span>
+                    <span className="text-[#B28B52] text-3xl font-black">,90</span>
                   </div>
 
                   <div className="mt-2 flex items-center justify-center gap-2">

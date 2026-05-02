@@ -49,7 +49,7 @@ export default function MetodoGringo() {
               <div className="relative border border-[#B28B52]/20 rounded-2xl p-8 bg-[#1a1a1a]">
                 <Image
                   src="/arkan-logo.png"
-                  alt="Método Gringo - Arkan Club"
+                  alt="Método Gringo - Frost Club"
                   width={280}
                   height={280}
                   className="drop-shadow-2xl"

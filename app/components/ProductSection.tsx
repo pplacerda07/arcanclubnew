@@ -6,31 +6,31 @@ import Image from "next/image"
 
 const volumes = [
   {
-    badge: "Comece Aqui",
-    title: "Protocolo Base",
+    badge: "Fase 1",
+    title: "Desinchaço e Ativação",
     subtitle: "A fundação do método",
     image: "/projeto-debloat-new.png",
     description:
-      "O ponto de entrada obrigatório. Entende o mecanismo, aplica as primeiras técnicas e vê as primeiras mudanças. Sem isso, nada mais funciona.",
-    modules: ["Projeto Debloat", "Face Training", "Rotina AM/PM"],
+      "O primeiro passo para revelar seu verdadeiro rosto. Foco total em eliminar a retenção hídrica, desinchar e ativar a circulação correta para resultados rápidos.",
+    modules: ["Projeto Debloat", "Rotina AM/PM"],
   },
   {
-    badge: "Potencialize",
-    title: "Método Avançado",
-    subtitle: "Refinamento e aceleração",
-    image: "/dry-cut-ebook.png",
+    badge: "Fase 2",
+    title: "Estrutura e Definição",
+    subtitle: "A base muscular",
+    image: "/face-training-ebook.png",
     description:
-      "Para quem já sentiu a primeira mudança e quer acelerar. Técnicas de definição e skin care que combinam com o protocolo base para resultados mais rápidos.",
-    modules: ["Dry Cut", "Skin Care", "Método Gringo"],
+      "Construção de uma base sólida. Exercícios focados e técnicas de secagem que trabalham a mandíbula, maçãs do rosto e pescoço para criar ângulos marcantes.",
+    modules: ["Face Training", "Dry Cut"],
   },
   {
-    badge: "Completo",
-    title: "Arsenal Total",
-    subtitle: "Tudo junto. Zero enrolação.",
-    image: "/impact-ebook.png",
+    badge: "Fase 3",
+    title: "Refinamento e Lapidação",
+    subtitle: "O polimento final",
+    image: "/skin-care-ebook.png",
     description:
-      "O pacote completo com todos os módulos. Um sistema de ponta a ponta que cobre cada aspecto da transformação estética, do debloat ao refinamento final.",
-    modules: ["Todos os 5 módulos", "AM/PM estruturado", "Suporte WhatsApp"],
+      "A lapidação completa dos resultados. Cuidados essenciais com a pele e técnicas avançadas que fecham o pacote para manter e maximizar sua nova estrutura.",
+    modules: ["Skin Care", "Método Gringo", "Manutenção"],
   },
 ]
 
@@ -48,10 +48,10 @@ export default function ProductSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-[#B28B52] text-xs font-bold uppercase tracking-[0.3em]">Estrutura do método</span>
+          <span className="text-[#B28B52] text-xs font-bold uppercase tracking-[0.3em]">Jornada Frost</span>
           <h2 className="text-[#C5C5C5] text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight mt-3">
-            Um Sistema Completo.{" "}
-            <span className="text-[#B28B52]">Zero Enrolação.</span>
+            As 3 Fases da{" "}
+            <span className="text-[#B28B52]">Transformação.</span>
           </h2>
         </motion.div>
 

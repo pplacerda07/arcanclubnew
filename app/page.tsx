@@ -4,9 +4,10 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import StatsBar from "./components/StatsBar"
 import ProblemSection from "./components/ProblemSection"
+import LiesSection from "./components/LiesSection"
 import SolutionSection from "./components/SolutionSection"
 import ModulesShowcase from "./components/ModulesShowcase"
-import ProductSection from "./components/ProductSection"
+import TargetAudienceSection from "./components/TargetAudienceSection"
 import MetodoGringo from "./components/MetodoGringo"
 import Testimonials from "./components/Testimonials"
 import Offer from "./components/Offer"
@@ -22,7 +23,7 @@ declare global {
   }
 }
 
-export default function ArkanClubLanding() {
+export default function FrostClubLanding() {
   return (
     <>
       {/* Facebook Pixel */}
@@ -48,9 +49,10 @@ export default function ArkanClubLanding() {
         <Hero />
         <StatsBar />
         <ProblemSection />
+        <LiesSection />
         <SolutionSection />
         <ModulesShowcase />
-        <ProductSection />
+        <TargetAudienceSection />
         <MetodoGringo />
         <Testimonials />
         <Offer />

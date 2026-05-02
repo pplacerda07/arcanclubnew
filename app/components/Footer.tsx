@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="max-w-3xl mx-auto bg-[#23363C]/10 border border-[#B28B52]/20 rounded-xl p-8 mb-12">
           <p className="text-[#C5C5C5]/70 text-sm leading-relaxed mb-4 text-center">
             Após confirmar sua compra em nosso ambiente de pagamento seguro, você recebe automaticamente o acesso ao
-            Método Arkan no e-mail que cadastrou.
+            Método Frost no e-mail que cadastrou.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
@@ -32,7 +32,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <span className="text-[#B28B52] font-bold text-xl tracking-wider uppercase font-mono">ARKAN CLUB</span>
+          <span className="text-[#B28B52] font-bold text-xl tracking-wider uppercase font-mono">FROST CLUB</span>
 
           <div className="flex items-center gap-6">
             <a href="#" className="text-[#C5C5C5]/50 hover:text-[#B28B52] transition-colors text-sm">
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-6 text-center">
-          <p className="text-[#C5C5C5]/30 text-xs">© 2024 Arkan Club. Todos os direitos reservados.</p>
+          <p className="text-[#C5C5C5]/30 text-xs">© 2024 Frost Club. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
