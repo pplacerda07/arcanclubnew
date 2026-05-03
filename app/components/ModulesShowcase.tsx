@@ -19,62 +19,6 @@ const modules = [
       "Zero equipamentos necessários",
     ],
   },
-  {
-    id: "face-training",
-    label: "Face Training",
-    tag: "Base do Método",
-    image: "/face-training-ebook.png",
-    description:
-      "Os exercícios faciais que ativam a musculatura certa. Sequências progressivas que tonificam, levantam e definem em poucas semanas de prática consistente.",
-    benefits: [
-      "Fortalecimento da musculatura facial",
-      "Lifting natural sem cirurgia",
-      "Sequências de 10-15 minutos",
-      "Resultados visíveis em 14 dias",
-    ],
-  },
-  {
-    id: "am-pm",
-    label: "Rotina AM/PM",
-    tag: "Consistência",
-    image: "/am-pm-ebook.png",
-    description:
-      "O protocolo dividido entre manhã e noite para maximizar resultados. Manhã para ativar, noite para recuperar e transformar.",
-    benefits: [
-      "Protocolo manhã + noite",
-      "Composto por hábitos simples",
-      "Potencializa outros módulos",
-      "Ritmo consistente de evolução",
-    ],
-  },
-  {
-    id: "dry-cut",
-    label: "Dry Cut",
-    tag: "Definição",
-    image: "/dry-cut-ebook.png",
-    description:
-      "Técnica de definição que seca e estrutura as linhas do rosto. Método utilizado por modelos para deixar a mandíbula, o pescoço e o contorno mais marcados rapidamente.",
-    benefits: [
-      "Mandíbula mais definida",
-      "Redução de retenção hídrica",
-      "Técnica profissional acessível",
-      "Resultado rápido e visível",
-    ],
-  },
-  {
-    id: "skin-care",
-    label: "Skin Care",
-    tag: "Pele",
-    image: "/skin-care-ebook.png",
-    description:
-      "A rotina de pele que faz a diferença quando tudo mais estiver alinhado. Simplicidade e consistência acima de qualquer produto caro. O que fazer, quando e por quê.",
-    benefits: [
-      "Rotina mínima e eficaz",
-      "Sem produtos caros",
-      "Complementa o método completo",
-      "Pele que potencializa o resultado",
-    ],
-  },
 ]
 
 export default function ModulesShowcase() {
@@ -100,28 +44,6 @@ export default function ModulesShowcase() {
           <p className="text-[#C5C5C5]/60 mt-4 max-w-xl mx-auto">
             Cada módulo foi desenvolvido para atacar um ponto específico. Juntos, formam o sistema completo.
           </p>
-        </motion.div>
-
-        {/* Tabs */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-wrap justify-center gap-2 mb-10"
-        >
-          {modules.map((m, i) => (
-            <button
-              key={m.id}
-              onClick={() => setActive(i)}
-              className={`px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 ${
-                i === active
-                  ? "bg-[#B28B52] text-[#121212]"
-                  : "bg-[#1a1a1a] text-[#C5C5C5]/60 border border-[#23363C]/40 hover:border-[#B28B52]/30 hover:text-[#C5C5C5]"
-              }`}
-            >
-              {m.label}
-            </button>
-          ))}
         </motion.div>
 
         {/* Content */}
@@ -180,18 +102,6 @@ export default function ModulesShowcase() {
           </motion.div>
         </AnimatePresence>
 
-        {/* Module count indicator */}
-        <div className="flex justify-center gap-2 mt-6">
-          {modules.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setActive(i)}
-              className={`h-1 rounded-full transition-all duration-300 ${
-                i === active ? "bg-[#B28B52] w-8" : "bg-[#23363C]/60 w-2"
-              }`}
-            />
-          ))}
-        </div>
       </div>
     </section>
   )
