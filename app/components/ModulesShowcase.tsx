@@ -11,12 +11,12 @@ const modules = [
     tag: "Mais Pedido",
     image: "/projeto-debloat-new.png",
     description:
-      "O protocolo que elimina o inchaço facial em dias. Técnicas de drenagem, posicionamento e rotinas matinais que redefinem o contorno do rosto sem nada artificial.",
+      "O protocolo que destrói o inchaço facial em dias. Drenagem forçada, reposicionamento estrutural e rotinas que esculpem seu rosto como bisturi — sem tocar em um.",
     benefits: [
-      "Redução de inchaço em 5-7 dias",
-      "Definição do contorno facial",
-      "Técnica aplicável em minutos",
+      "Inchaço eliminado em 5-7 dias",
+      "Modulação facial completa",
       "Zero equipamentos necessários",
+      "Garantia incondicional de 14 dias",
     ],
   },
 ]

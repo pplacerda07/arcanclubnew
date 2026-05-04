@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-6 text-center">
-          <p className="text-[#C5C5C5]/30 text-xs">© 2024 Frost Club. Todos os direitos reservados.</p>
+          <p className="text-[#C5C5C5]/30 text-xs">© 2025 Frost Club. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

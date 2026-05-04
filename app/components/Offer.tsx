@@ -3,7 +3,7 @@
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import Image from "next/image"
-import { CheckCircle, ShieldCheck, MessageSquare, Zap } from "lucide-react"
+import { CheckCircle, ShieldCheck, Zap, Lock } from "lucide-react"
 
 const CHECKOUT_URL = "https://arkan-club.mycartpanda.com/checkout/186242508:1"
 
@@ -14,14 +14,10 @@ function trackLead() {
 }
 
 const benefits = [
-  "Projeto Debloat: protocolo anti-inchaço",
-  "Face Training: exercícios de tonificação",
-  "Rotina AM/PM: consistência diária",
-  "Dry Cut: definição e estrutura",
-  "Skin Care: rotina mínima e eficaz",
+  "Acesso completo ao método",
   "Acesso imediato após a compra",
-  "Garantia de 7 dias",
   "Suporte no WhatsApp",
+  "Garantia de 14 dias",
 ]
 
 export default function Offer() {
@@ -108,11 +104,11 @@ export default function Offer() {
                 <div className="flex items-center justify-center gap-4 text-xs text-[#C5C5C5]/40">
                   <div className="flex items-center gap-1.5">
                     <ShieldCheck size={13} className="text-[#B28B52]" />
-                    <span>Pagamento seguro</span>
+                    <span>Pagamento 100% seguro</span>
                   </div>
                   <div className="flex items-center gap-1.5">
-                    <MessageSquare size={13} className="text-[#B28B52]" />
-                    <span>Suporte WhatsApp</span>
+                    <Lock size={13} className="text-[#B28B52]" />
+                    <span>Checkout transparente</span>
                   </div>
                 </div>
               </div>

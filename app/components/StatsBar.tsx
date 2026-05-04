@@ -7,7 +7,7 @@ const stats = [
   { value: 14, suffix: " dias", label: "para a 1ª mudança visível", prefix: "" },
   { value: 30, suffix: " dias", label: "para o ciclo completo", prefix: "" },
   { value: 0, suffix: "", label: "equipamentos necessários", prefix: "Zero" },
-  { value: 7, suffix: " dias", label: "de garantia total", prefix: "" },
+  { value: 14, suffix: " dias", label: "de garantia total", prefix: "" },
 ]
 
 function CountUp({ target, prefix, suffix }: { target: number; prefix: string; suffix: string }) {

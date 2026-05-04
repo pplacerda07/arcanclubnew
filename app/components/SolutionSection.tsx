@@ -6,7 +6,7 @@ import { X, Check } from "lucide-react"
 
 const comparisons = [
   {
-    others: "Resultados só com cirurgia",
+    common: "Resultados só com cirurgia",
     frost: "Transformação sem bisturi",
   },
   {
@@ -84,7 +84,7 @@ export default function SolutionSection() {
               >
                 <div className="px-6 py-5 flex items-center gap-3">
                   <X size={16} className="text-red-500/60 shrink-0" />
-                  <span className="text-[#C5C5C5]/50 text-sm">{c.others}</span>
+                  <span className="text-[#C5C5C5]/50 text-sm">{c.common}</span>
                 </div>
                 <div className="px-6 py-5 flex items-center gap-3 border-l border-[#B28B52]/10">
                   <Check size={16} className="text-[#B28B52] shrink-0" />

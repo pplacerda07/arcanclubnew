@@ -5,10 +5,10 @@ import { motion, useInView } from "framer-motion"
 import { Check, X } from "lucide-react"
 
 const forWho = [
-  "Homens que sentem o rosto constantemente inchado, retido ou sem definição.",
+  "Pessoas que sentem o rosto constantemente inchado, retido ou sem definição.",
   "Quem quer marcar a linha da mandíbula de forma natural, sem agulhas.",
   "Pessoas que treinam, fazem dieta, mas o rosto continua redondo.",
-  "Homens dispostos a dedicar 15 minutos diários para a própria aparência.",
+  "Pessoas dispostas a dedicar 15 minutos diários para a própria aparência.",
   "Quem busca um resultado permanente, fortalecendo a estrutura facial."
 ]
 
@@ -16,7 +16,7 @@ const notForWho = [
   "Quem busca uma 'pílula mágica' ou cirurgia que resolve tudo amanhã.",
   "Pessoas sem disciplina para seguir uma rotina básica de exercícios.",
   "Quem prefere gastar milhares de reais em procedimentos temporários.",
-  "Homens que acham que cuidar da estética facial não é importante.",
+  "Pessoas que acham que cuidar da estética facial não é importante.",
 ]
 
 export default function TargetAudienceSection() {

@@ -16,7 +16,7 @@ const summary = [
   "5 módulos completos do protocolo",
   "Acesso imediato após a compra",
   "Método testado e comprovado",
-  "Garantia de 7 dias",
+  "Garantia incondicional de 14 dias",
   "Suporte no WhatsApp",
 ]
 
@@ -75,7 +75,7 @@ export default function FinalCTA() {
 
             <div className="flex items-center justify-center gap-2">
               <ShieldCheck size={14} className="text-[#B28B52]" />
-              <span className="text-[#C5C5C5]/40 text-xs">Pagamento 100% seguro · Garantia de 7 dias</span>
+              <span className="text-[#C5C5C5]/40 text-xs">Pagamento 100% seguro · Garantia de 14 dias</span>
             </div>
           </div>
 

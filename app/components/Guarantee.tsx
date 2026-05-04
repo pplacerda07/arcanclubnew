@@ -24,19 +24,19 @@ export default function Guarantee() {
               <div className="relative w-28 h-28 rounded-full border-2 border-[#B28B52] flex flex-col items-center justify-center bg-[#1a1a1a]">
                 <ShieldCheck size={32} className="text-[#B28B52] mb-1" />
                 <span className="text-[#B28B52] text-xs font-black uppercase tracking-wide leading-tight text-center">
-                  7 Dias<br />Garantia
+                  14 Dias<br />Garantia
                 </span>
               </div>
             </div>
           </div>
 
           <h2 className="text-[#C5C5C5] text-3xl md:text-4xl font-extrabold mb-4">
-            7 Dias Para Mudar.{" "}
+            14 Dias Para Mudar.{" "}
             <span className="text-[#B28B52]">Ou Devolvemos Tudo.</span>
           </h2>
 
           <p className="text-[#C5C5C5]/60 text-base leading-relaxed max-w-xl mx-auto mb-8">
-            Se em 7 dias você aplicar o método e não ver absolutamente nenhuma diferença, devolvemos 100% do valor. Sem
+            Se em 14 dias você aplicar o método e não ver absolutamente nenhuma diferença, devolvemos 100% do valor. Sem
             perguntas, sem burocracia, sem enrolação.
           </p>
 

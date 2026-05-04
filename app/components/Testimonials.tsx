@@ -37,6 +37,14 @@ const testimonials = [
     result: "Ciclo completo concluído",
     stars: 5,
   },
+  {
+    name: "Juliana S.",
+    location: "Florianópolis, SC",
+    time: "2 semanas atrás",
+    text: "Eu gastava rios com skincare achando que ia resolver. O problema nunca foi produto, era método. Em 10 dias meu rosto já tava visivelmente mais definido. Nunca vi nada tão direto ao ponto.",
+    result: "Contorno facial redefinido em 10 dias",
+    stars: 5,
+  },
 ]
 
 export default function Testimonials() {
