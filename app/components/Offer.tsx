@@ -70,7 +70,7 @@ export default function Offer() {
                   <p className="text-[#C5C5C5]/50 text-sm mb-1">acesso completo ao método</p>
                   <div className="flex items-baseline justify-center gap-1">
                     <span className="text-[#C5C5C5]/40 text-lg">R$</span>
-                    <span className="text-[#B28B52] text-6xl font-black">27</span>
+                    <span className="text-[#B28B52] text-6xl font-black">14</span>
                     <span className="text-[#B28B52] text-3xl font-black">,90</span>
                   </div>
 
