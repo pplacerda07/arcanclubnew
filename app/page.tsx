@@ -17,51 +17,25 @@ import FinalCTA from "./components/FinalCTA"
 import Footer from "./components/Footer"
 import FloatingCTA from "./components/FloatingCTA"
 
-declare global {
-  interface Window {
-    fbq: (...args: unknown[]) => void
-  }
-}
-
 export default function FrostClubLanding() {
   return (
-    <>
-      {/* Facebook Pixel */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '4358339461121303');
-            fbq('track', 'PageView');
-          `,
-        }}
-      />
-
-      <div className="min-h-screen bg-[#121212] text-[#C5C5C5]">
-        <Navbar />
-        <Hero />
-        <StatsBar />
-        <ProblemSection />
-        <LiesSection />
-        <SolutionSection />
-        <ModulesShowcase />
-        <TargetAudienceSection />
-        <MetodoGringo />
-        <Testimonials />
-        <Offer />
-        <FAQ />
-        <Guarantee />
-        <FinalCTA />
-        <Footer />
-        <FloatingCTA />
-      </div>
-    </>
+    <div className="min-h-screen bg-[#121212] text-[#C5C5C5]">
+      <Navbar />
+      <Hero />
+      <StatsBar />
+      <ProblemSection />
+      <LiesSection />
+      <SolutionSection />
+      <ModulesShowcase />
+      <TargetAudienceSection />
+      <MetodoGringo />
+      <Testimonials />
+      <Offer />
+      <FAQ />
+      <Guarantee />
+      <FinalCTA />
+      <Footer />
+      <FloatingCTA />
+    </div>
   )
 }
